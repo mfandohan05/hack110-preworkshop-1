@@ -1,28 +1,28 @@
 body {
-  font-family: Arial;
-  background-color: #f4f4f4;
+  font-family: Arial; /* using a basic, simple font. Explanation: Arial is a widely available font that displays well on most systems. */
+  background-color: #f4f4f4; /*  simple light gray background. Explanation: this is a hex color code for a light gray color. You can find hex code generators online.*/
 }
 
 #main-header {
-  text-align: center;
-  margin-bottom: 20px;
+  text-align: center; /* centers the text in the header. Explanation: this CSS property centers the text horizontally within its container. */
+  margin-bottom: 20px; /* adds space below the header. Explanation: this creates a gap between the header and the content below it, improving readability. */
 }
 
 .card {
-  background: white;
-  padding: 20px;
-  margin: 20px;
-  border: 1px solid #ddd;
+  background-color: white; 
+  padding: 20px; /* adds space inside the card. Explanation: this creates a comfortable space between the content and the edges of the card, making it easier to read. */
+  margin: 20px; /* adds space around the card. Explanation: this creates a gap between the card and other elements on the page, preventing it from feeling cramped. */
+  border: 1px solid #ddd; /* adds a light border around the card. Explanation: this gives the card a defined edge, making it stand out against the background. */
 }
 
 .button {
-  display: inline-block;
-  padding: 10px 15px;
-  background: blue;
+  display: inline-block; /* allows the button to be styled like a block element while still flowing inline. Explanation: this makes it easier to apply padding and background styles to the button. */
+  padding: 10px 15px; /* adds space inside the button: 10px top/bottom, 15px left/right. Explanation: this creates a comfortable area for the text within the button, making it more clickable. */
+  background-color: blue; 
   color: white;
-  text-decoration: none;
+  text-decoration: none; /* removes the underline from the link. Explanation: this makes the button look cleaner and more like a traditional button rather than a regular link. */
 }
 
 .button:hover {
-  background: darkblue;
+  background: darkblue; /* changes the background color when the user hovers over the button. Explanation: this provides visual feedback to the user, indicating that the button is interactive. */
 }
